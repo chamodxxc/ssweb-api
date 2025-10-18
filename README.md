@@ -1,6 +1,6 @@
 # ssweb-api
 Screenshot/Screenrecord websites easily 
-- **[Demo Here: http://102.212.246.26:2123](http://102.212.246.26:2123)**
+- **[Demo Here](https://ssweb-api.giftedtech.co.ke)**
 
 ### Available Endpoints
 - /api/screenshot
