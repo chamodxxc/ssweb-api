@@ -77,7 +77,7 @@ app.get('/api/screenshot', async (req, res) => {
     res.status(500).json({ 
       status: 500,
       success: 'false',
-      creator: 'GiftedTech',
+      creator: 'chamod nimsara',
       error: 'Error creating screenshot', 
       message: err.message 
     });
@@ -139,7 +139,7 @@ app.get('/api/screenrecord', async (req, res) => {
     res.status(500).json({ 
       status: 500,
       success: 'false',
-      creator: 'GiftedTech',
+      creator: 'chamod nimsara',
       error: 'Error creating screen recording', 
       message: err.message 
     });
@@ -153,7 +153,7 @@ app.get('/health', (req, res) => {
     status: 200,
     success: true,
     info: 'online', 
-    creator: 'GiftedTech',
+    creator: 'chamod nimsara',
     timestamp: new Date().toISOString() 
   });
 });
@@ -173,7 +173,7 @@ app.get('/', (req, res) => {
 </head>
 <body>
     <h1>Screenshot & Screen Recording API</h1>
-    <p>Creator: GiftedTech</p>
+    <p>Creator: whiteshadow</p>
     
     <div class="endpoint">
         <h3>Screenshot Endpoint</h3>
